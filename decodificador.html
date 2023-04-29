@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Decodificador</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+    <header><h1><img class="logo" src="imagens/Logo.svg" alt="logo Alura"/></header></h1>
+
+    <main>
+      <div class="entra-texto">
+        <textarea 
+          id="cripto"
+          placeholder="Digite seu Texto..."
+          class="texto-criptografado"
+        ></textarea>
+        <textarea 
+          readonly
+          id="texto-resultado"
+          placeholder="Resultado do seu Texto..."
+        ></textarea>
+      </div>
+
+      <div class="btn">
+        <button onclick="criptografa()">Criptografia</button>
+        <button onclick="descriptografa()">Descriptografar</button>
+        <button onclick="copiaTexto()">Copiar Texto</button>
+      </div>
+  
+    </main>
+    <footer>
+      <ul>
+        <li><a href="https://github.com/JorgeMiguelOC"><img src="imagens/logo_github.svg" alt="logo do github"  class="imagelink"></a></li>
+        <li><a href="https://www.linkedin.com/in/jorge-miguel-oliveira-da-costa/"><img src="imagens/logo_linkedin.svg" alt="logo do linkedin"  class="imagelink"></a></li>
+        <li><a href="mailto:jorgemiguel2002@hotmail.com"><img src="imagens/logo_email.svg" alt="logo do email"  class="imagelink"></a></li>
+      </ul>
+    </footer>
+  </div>
+  </body>
+  <script src="script.js"></script>
+</html>
