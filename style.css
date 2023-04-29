@@ -112,9 +112,3 @@ ul{
 .imagelink:hover{
   transform: scale(1.1);
 }
-
-@media screen and (max-width: 480px) {
-  header, main, footer, button, textarea {
-    width: auto;
-  }
-}
